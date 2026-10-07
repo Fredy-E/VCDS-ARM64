@@ -16,3 +16,7 @@ Compatibility notes for running **Ross-Tech VCDS** on **Windows 11 on ARM64** (S
 ## Disclaimer
 
 Community interoperability notes. Not affiliated with, endorsed by, or sponsored by Ross-Tech. "VCDS" is a trademark of Ross-Tech.
+
+## Contact
+
+Questions about this project: **fff.eid607@gmail.com**
