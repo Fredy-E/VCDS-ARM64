@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Compatibility notes for running <a href="https://www.ross-tech.com/vcds/">Ross-Tech VCDS</a> on Windows 11 on ARM64</strong> (Snapdragon X / Windows on ARM).<br>
-  Original material only — no Ross-Tech code, binaries, or firmware is included or redistributed.
+  Documentation only — no Ross-Tech code, binaries, firmware, or drivers are included or redistributed.
 </p>
 
 <p align="center">
@@ -13,14 +13,28 @@
 
 ## Scope
 
-- This repository contains only original, self-authored material.
-- **No Ross-Tech code, binaries, or firmware** is included or redistributed.
-- **Nothing here modifies or bypasses any license, activation, or protection mechanism.** You need your own licensed VCDS installation and a genuine Ross-Tech interface (e.g. HEX-V2).
+- **Documentation only.** Original, self-authored material (MIT — see [LICENSE](LICENSE)). No Ross-Tech code, binaries, firmware, installers, or drivers are included or redistributed.
+- **Genuine, licensed setups only.** You need your own licensed VCDS installation and a genuine Ross-Tech interface (current generation: HEX-V2 or HEX-NET). Nothing here modifies or bypasses any license, activation, or protection mechanism.
+- **Honest evidence.** Every claim is either a single-machine observation or quoted official guidance, labeled and linked. Unknowns are marked "not recorded" rather than guessed.
 
-## Verified notes (Windows 11 ARM64)
+## Documentation
+
+| Document | Contents |
+| --- | --- |
+| [docs/SETUP.md](docs/SETUP.md) | Getting a genuine, licensed setup working in USB mode on Windows 11 ARM64 |
+| [docs/EVIDENCE.md](docs/EVIDENCE.md) | What has actually been observed; versioned table of not-recorded fields; quoted official guidance |
+| [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | COM-port detection issue, legacy interfaces on ARM, HEX-NET WiFi caveat |
+| [docs/REPRODUCTION-TEMPLATE.md](docs/REPRODUCTION-TEMPLATE.md) | Maintainer template for recording new observations |
+| [docs/releases/v0.1.0.md](docs/releases/v0.1.0.md) | Documentation-only release draft (not published) |
+
+Doc link checks: `python3 tools/check_docs.py` — dependency-free (Python stdlib only); also run by the docs-only CI workflow.
+
+## Observed notes (single machine — not a compatibility matrix)
 
 - VCDS 24.x (x86) runs on Windows 11 ARM64 in **USB interface mode** under the built-in x86 emulation.
 - Setting a COM port in VCDS configuration breaks interface detection on this platform — the USB-mode path is the working one.
+
+Exact Windows build, interface model, firmware, and driver versions were not recorded. Full scope and the versioned table: [docs/EVIDENCE.md](docs/EVIDENCE.md).
 
 ## Related
 
@@ -28,7 +42,7 @@
 
 ## Disclaimer
 
-Community interoperability notes. Not affiliated with, endorsed by, or sponsored by Ross-Tech. "VCDS" is a trademark of Ross-Tech.
+Community interoperability notes. Not affiliated with, endorsed by, or sponsored by Ross-Tech. "VCDS" is a trademark of Ross-Tech, LLC.
 
 ## Contact
 
