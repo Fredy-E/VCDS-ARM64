@@ -24,6 +24,7 @@
 | [docs/SETUP.md](docs/SETUP.md) | Getting a genuine, licensed setup working in USB mode on Windows 11 ARM64 |
 | [docs/EVIDENCE.md](docs/EVIDENCE.md) | What has actually been observed; versioned table of not-recorded fields; quoted official guidance |
 | [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | COM-port detection issue, legacy interfaces on ARM, HEX-NET WiFi caveat |
+| [docs/FTDI-HAVE-DISK.md](docs/FTDI-HAVE-DISK.md) | Installing FTDI's official ARM64 USB serial driver (Have Disk); no binaries hosted |
 | [docs/REPRODUCTION-TEMPLATE.md](docs/REPRODUCTION-TEMPLATE.md) | Maintainer template for recording new observations |
 | [docs/releases/v0.1.0.md](docs/releases/v0.1.0.md) | Documentation-only release draft (not published) |
 
