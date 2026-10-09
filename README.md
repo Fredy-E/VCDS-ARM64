@@ -38,7 +38,10 @@ Exact Windows build, interface model, firmware, and driver versions were not rec
 
 ## Related
 
-- [USBPcap-ARM64](https://github.com/Fredy-E/USBPcap-ARM64) — unofficial native ARM64 port of USBPcap: USB packet capture for Windows on ARM.
+- [USBPcap-ARM64](https://github.com/Fredy-E/USBPcap-ARM64) — unofficial native ARM64 USB capture filter driver and CLI. Captures Windows USB traffic; it is not a replacement Ross-Tech interface driver.
+- [VAG-ARM64](https://github.com/Fredy-E/VAG-ARM64) — companion project hub and VagDiag Android USB-host prototype. The Android app is independent of VCDS, is not a Windows loader, and does not implement ECU diagnostics.
+
+These projects form separate documentation, capture, and experimental Android transport layers. This repository remains documentation-only; it does not redistribute drivers, Android binaries, proprietary VCDS files, or the historical loader.
 
 ## Disclaimer
 
